@@ -1,0 +1,63 @@
+"use client";
+
+import Link from "next/link";
+import { Navbar } from "flowbite-react";
+import { useState } from "react";
+
+export default function NavComponent() {
+	const [toggle, setToggle] = useState(false);
+
+	function handleToggle() {
+		setToggle(!toggle);
+	}
+
+	return (
+		<Navbar
+			fluid
+			className={`b-[hsla(0,0%,100%,.8)] opacity-90 sticky top-0 px-10 py-4 z-50`}
+		>
+			<Navbar.Brand as={Link} href="/">
+				<img
+					src="/pyralink_black_logo_2.png"
+					className="mr-3 h-6 sm:h-9"
+					alt="Pyralink Logo"
+				/>
+			</Navbar.Brand>
+			<Navbar.Toggle onClick={handleToggle} />
+			<Navbar.Collapse className={`${toggle ? "block" : "hidden"} `}>
+				<Navbar.Link href="/#target-area-mission" onClick={handleToggle}>
+					<span className="font-extrabold px-4 py-2">Mission</span>
+				</Navbar.Link>
+				<Navbar.Link
+					as={Link}
+					href="/#target-area-defence"
+					onClick={handleToggle}
+				>
+					<span className="font-extrabold px-4 py-2">Defence</span>
+				</Navbar.Link>
+				<Navbar.Link href="/#target-area-about" onClick={handleToggle}>
+					<span className="font-extrabold px-4 py-2">About</span>
+				</Navbar.Link>
+				<Navbar.Link
+					href="/#target-area-launch-services"
+					onClick={handleToggle}
+				>
+					<span className="font-extrabold px-4 py-2">Launch Services</span>
+				</Navbar.Link>
+				<Navbar.Link
+					href="https://za.indeed.com/cmp/Pyralink-Aerospace"
+					target="_blank"
+					rel="noopener noreferrer"
+					className=""
+				>
+					<span className="font-extrabold px-4 py-2">Careers</span>
+				</Navbar.Link>
+				<Navbar.Link href="/contact">
+					<span className="font-extrabold text-white rounded-3xl bg-black px-6 py-3">
+						Contact
+					</span>
+				</Navbar.Link>
+			</Navbar.Collapse>
+		</Navbar>
+	);
+}
