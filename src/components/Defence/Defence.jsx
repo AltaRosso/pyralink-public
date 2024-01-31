@@ -29,10 +29,10 @@ const Defence = () => {
 							pauseOnHover
 							indicators={false}
 							leftControl={
-								<RocketLaunchOutlinedIcon className="-rotate-90 hidden md:block" />
+								<RocketLaunchOutlinedIcon className="-rotate-90 hidden md:block text-white" />
 							}
 							rightControl={
-								<RocketLaunchOutlinedIcon className="hidden md:block" />
+								<RocketLaunchOutlinedIcon className="hidden md:block text-white" />
 							}
 						>
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
