@@ -2,18 +2,20 @@
 
 const Welcome = () => {
 	return (
-		<div className="w-full relative mb-20x shadow-[20px_12px_20px_#181510] ">
+		<div className="w-full relative mb-20x shadow-[20px_12px_20px_#181510] bg-black">
 			<img
-				src="./welcome/PyraLink_High bandwidth.png"
-				className="opacity-30 object md:w-full md:h-screen h-full z-0"
+				src="./welcome/PyraLink_High_bandwidth.png"
+				className="opacity-30 md:w-full md:h-screen h-full"
 				width={2048}
 				height={1428}
 				alt="high bandwith"
 			/>
-			<h1 className="absolute top-0 left-0 text-white ps-10 pt-20 z-10">
+
+			<h1 className="absolute top-0 left-0 text-white ps-10 pt-20">
 				Space within your reach
 			</h1>
-			<p className="hidden md:block text-white absolute top-[10%] max-w-5xl ps-10 pt-20 text-lg text-justify z-10">
+
+			<p className="hidden md:block text-white absolute top-[10%] max-w-5xl ps-10 pt-20 text-lg text-justify">
 				PyraLink Aerospace provides spacecraft components and launch services
 				for African national security satellites. As South Africa&apos;s only
 				rocket company, we craft tailored solutions that meet the needs of the

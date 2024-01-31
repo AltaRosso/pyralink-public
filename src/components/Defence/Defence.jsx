@@ -29,7 +29,7 @@ const Defence = () => {
 							pauseOnHover
 							indicators={false}
 							leftControl={
-								<RocketLaunchOutlinedIcon className="-rotate-90 hidden md:block text-white" />
+								<RocketLaunchOutlinedIcon className="hidden md:block text-white -rotate-90" />
 							}
 							rightControl={
 								<RocketLaunchOutlinedIcon className="hidden md:block text-white" />
