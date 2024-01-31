@@ -5,7 +5,7 @@ const Welcome = () => {
 		<div className="w-full relative mb-20x shadow-[20px_12px_20px_#181510] ">
 			<img
 				src="./welcome/PyraLink_High bandwidth.png"
-				className="opacity-30 object md:w-full md:h-screen h-full"
+				className="opacity-70 md:opacity-30 object md:w-full md:h-screen h-full"
 				width={2048}
 				height={1428}
 				alt="high bandwith"
