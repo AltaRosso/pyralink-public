@@ -12,11 +12,11 @@ const Defence = () => {
 			className="w-full px-7 py-20 relative bg-slate-950"
 		>
 			<>
-				<h1 className="text-center pb-10">Defence in space</h1>
+				<h1 className="text-center pb-10 text-white">Defence in space</h1>
 				<hr className="pb-10" />
 
 				<div className="flex justify-between flex-col md:flex-row">
-					<span className="md:w-1/2 self-center md:pr-20">
+					<span className="md:w-1/2 self-center md:pr-20 text-white">
 						<p>
 							New class Military Satellite Communications services for the South
 							African Defence Force and it&apos;s allies.
