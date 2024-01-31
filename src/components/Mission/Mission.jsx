@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Mission = () => {
 	return (
@@ -33,7 +33,7 @@ const Mission = () => {
 					</div>
 
 					<div className="md:pr-10 rounded-full text-center">
-						<Image
+						<img
 							loading="lazy"
 							src="./mission/sat.jpg"
 							className="rounded-sm"

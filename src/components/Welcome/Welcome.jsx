@@ -1,9 +1,9 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 const Welcome = () => {
 	return (
 		<div className="w-full relative mb-20x shadow-[20px_12px_20px_#181510] ">
-			<Image
+			<img
 				src="./welcome/PyraLink_High bandwidth.png"
 				className="opacity-20 object md:w-full md:h-screen h-full"
 				width={2048}

@@ -3,7 +3,7 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 import RocketLaunchOutlinedIcon from "@mui/icons-material/RocketLaunchOutlined";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Defence = () => {
 	return (
@@ -32,7 +32,7 @@ const Defence = () => {
 							rightControl={<RocketLaunchOutlinedIcon />}
 						>
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
-								<Image
+								<img
 									src="./defence/pyralink_defence.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
@@ -45,7 +45,7 @@ const Defence = () => {
 							</div>
 
 							<div className="flex h-full items-center justify-center dark:text-white relative">
-								<Image
+								<img
 									src="./defence/pyralink_defence_2.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
@@ -58,7 +58,7 @@ const Defence = () => {
 							</div>
 
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
-								<Image
+								<img
 									src="./defence/pyralink_defence.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
