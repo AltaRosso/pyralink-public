@@ -28,8 +28,12 @@ const Defence = () => {
 							slideInterval={3000}
 							pauseOnHover
 							indicators={false}
-							leftControl={<RocketLaunchOutlinedIcon className="-rotate-90" />}
-							rightControl={<RocketLaunchOutlinedIcon />}
+							leftControl={
+								<RocketLaunchOutlinedIcon className="-rotate-90 hidden md:block" />
+							}
+							rightControl={
+								<RocketLaunchOutlinedIcon className="hidden md:block" />
+							}
 						>
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
 								<img
