@@ -20,7 +20,7 @@ export default function NavComponent() {
 		>
 			<Navbar.Brand as={Link} href="/" onClick={() => setToggle(false)}>
 				<img
-					src="/pyralink_black_logo_2.png"
+					src="./pyralink_black_logo_2.png"
 					className="mr-3 h-6 sm:h-9"
 					alt="Pyralink Logo"
 				/>

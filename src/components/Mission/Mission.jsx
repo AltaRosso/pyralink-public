@@ -35,7 +35,7 @@ const Mission = () => {
 					<div className="md:pr-10 rounded-full text-center">
 						<Image
 							loading="lazy"
-							src="/mission/sat.jpg"
+							src="./mission/sat.jpg"
 							className="rounded-sm"
 							width={1000}
 							height={571}

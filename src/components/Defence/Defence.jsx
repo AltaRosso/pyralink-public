@@ -33,7 +33,7 @@ const Defence = () => {
 						>
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
 								<Image
-									src="/defence/pyralink_defence.png"
+									src="./defence/pyralink_defence.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
 									width={860}
@@ -46,7 +46,7 @@ const Defence = () => {
 
 							<div className="flex h-full items-center justify-center dark:text-white relative">
 								<Image
-									src="/defence/pyralink_defence_2.png"
+									src="./defence/pyralink_defence_2.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
 									width={860}
@@ -59,7 +59,7 @@ const Defence = () => {
 
 							<div className=" flex h-full items-center justify-center dark:text-white relative">
 								<Image
-									src="/defence/pyralink_defence.png"
+									src="./defence/pyralink_defence.png"
 									alt="Pyralink Defence"
 									// className="w-[860px]"
 									width={860}
