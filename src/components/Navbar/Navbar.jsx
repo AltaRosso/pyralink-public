@@ -39,14 +39,14 @@ export default function NavComponent() {
 			)}
 			<Navbar.Collapse className={`${toggle ? "block" : "hidden"} `}>
 				<Navbar.Link
-					href="/#target-area-mission"
+					href="#target-area-mission"
 					onClick={() => setToggle(false)}
 				>
 					<span className="font-extrabold px-4 py-2">Mission</span>
 				</Navbar.Link>
 				<Navbar.Link
 					as={Link}
-					href="/#target-area-defence"
+					href="#target-area-defence"
 					onClick={() => setToggle(false)}
 				>
 					<span className="font-extrabold px-4 py-2">Defence</span>
@@ -59,7 +59,7 @@ export default function NavComponent() {
 					<span className="font-extrabold px-4 py-2">About</span>
 				</Navbar.Link>
 				<Navbar.Link
-					href="/#target-area-launch-services"
+					href="#target-area-launch-services"
 					onClick={() => setToggle(false)}
 					disabled
 				>
